@@ -818,18 +818,33 @@ textarea {
     flex-direction: column;
   }
   .top__nav {
-    height: 70px;
+    height: 73px;
     width: 100%;
   }
   .menu__nav {
     justify-content: space-between;
-    margin: 0 16px;
-    width: 100%;
-    gap: 0;
+    margin:16px;
+    gap: 120px;
   }
   .container {
     width: 100%;
     gap: 0;
+  }
+  .address__link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    letter-spacing: 0.48px;
+  }
+  .nav__address__item {
+    flex-direction: column;
+    margin: 16px 0;
+    gap: 12px;
+  }
+  .nav__address__link{
+    height: 14px;
   }
   /* section hero bg */
   .hero__bg {
@@ -893,19 +908,22 @@ textarea {
   .our-team__imgs {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 108px;
   }
   .team-card {
     width: 264px;
     height: 396px;
   }
   /* our-custumers */
+  .our-custumers_heading {
+    text-align: center;
+  }
   .our-custumers {
+    justify-content: center;
     display: flex;
-    width: 552px;
     height: 360px;
-    margin-bottom: 96px;
     flex-direction: column;
-    margin-left: 108px;
+    margin: 96px 108px;
   }
   .costomers__cont {
     flex-wrap: wrap;
@@ -913,12 +931,20 @@ textarea {
   /* footer__bg */
   .footer__bg {
     height: 456px;
+    align-items: normal;
   }
   .container__footer {
+    margin-top: 96px;
     flex-wrap: wrap;
     justify-content: center;
+    height: 0;
   }
   .email__imput {
     display: flex;
+    flex-direction: column;
+  }
+  .foter__lable {
+    width: 264px;
+    height: 40px;
   }
 }
