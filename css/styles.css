@@ -155,9 +155,11 @@ a {
 }
 /* END HERO SECTION */
 /* START FEATURES SECTION */
+.features__section {
+  padding: 120px 0;
+}
 .features__section_text {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 .feature__text {
@@ -187,7 +189,7 @@ a {
 /* END FEATURES SECTION */
 /* START SECTION 2 SECTION */
 .section-2 {
-  padding: 116px 0;
+  padding-bottom: 120px;
 }
 .section-2_heading {
   font-family: var(--main-font);
@@ -272,7 +274,13 @@ a {
 .social-list-link {
   display: block;
   background-color: #4d5ae5;
-  padding: 8px;
+  padding: 4px;
+  border-radius: 50%;
+}
+.social-list-link:hover {
+  display: block;
+  background-color: #2e2f42;
+  padding: 4px;
   border-radius: 50%;
 }
 /* END OUR TEAM SECTION */
@@ -299,10 +307,7 @@ a {
 }
 .container__footer {
   display: flex;
-  width: 1156px;
-  height: 112px;
   margin: 0 auto;
-  gap: 120px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -349,6 +354,12 @@ a {
 .footer-social-list-link {
   display: block;
   background-color: #4d5ae5;
+  padding: 8px;
+  border-radius: 50%;
+}
+.footer-social-list-link:hover{
+  display: block;
+  background-color: #2E2F42;
   padding: 8px;
   border-radius: 50%;
 }
@@ -457,6 +468,10 @@ a {
   color: black;
   width: 24px;
   height: 24px;
+}
+
+.costomers__logo:hover{
+ background-color: #2E2F42;
 }
 /* END FOOTER SECTION fggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
 
@@ -820,6 +835,9 @@ textarea {
   width: 1128px;
   margin: 0 auto;
 }
+.footer__social__container {
+  margin: 0 80px 0 120px;
+}
 /* Mobile Styles */
 @media (max-width: 428px) {
   .nav__item {
@@ -1121,7 +1139,7 @@ textarea {
     margin: 0 auto;
   }
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   /* header */
   .nav__address {
     flex-direction: column;
@@ -1170,11 +1188,10 @@ textarea {
   /* features__section */
   .features__section {
     width: 736px;
-    height: 312px;
+    padding: 120px 0;
   }
   .features__section_text {
     flex-wrap: wrap;
-    margin: 96px 0;
   }
   .feature__text {
     padding: 36px 12px;
@@ -1208,11 +1225,8 @@ textarea {
     display: none;
   }
   /* our-team */
-  .our-team__bg {
-    margin-top: 192px;
-  }
-  .our-team__heading {
-    padding-top: 96px;
+  .our-team {
+    padding: 96px 0;
   }
   .our-team__imgs {
     display: flex;
@@ -1233,23 +1247,23 @@ textarea {
   .our-custumers {
     justify-content: center;
     display: flex;
-    height: 360px;
     flex-direction: column;
-    margin: 96px 108px;
+    padding: 96px 0;
   }
   .costomers__cont {
     flex-wrap: wrap;
   }
   /* footer__bg */
   .footer__bg {
-    height: 456px;
     align-items: normal;
+    padding: 96px 0;
   }
   .container__footer {
-    margin-top: 96px;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    height: 0;
+  }
+  .footer__text_container {
+    margin: 0 24px 72px 0;
   }
   .email__imput {
     display: flex;
@@ -1258,5 +1272,8 @@ textarea {
   .foter__lable {
     width: 264px;
     height: 40px;
+  }
+  .footer__social__container {
+    margin: 0;
   }
 }
