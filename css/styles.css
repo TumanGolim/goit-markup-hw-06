@@ -109,8 +109,12 @@ a {
 /* END NAV SECTION */
 /* START HERO SECTION */
 .hero__bg {
-  height: 600px;
-  background-image: url(../images/people-office\ 1.jpg);
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 1440px 600px;
@@ -119,6 +123,7 @@ a {
   justify-content: center;
 }
 .hero__container {
+  background: gra;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +157,7 @@ a {
 /* START FEATURES SECTION */
 .features__section_text {
   display: flex;
-  margin: 120px 0;
+  padding: 120px 0;
   gap: 24px;
 }
 .feature__text {
@@ -181,6 +186,9 @@ a {
 }
 /* END FEATURES SECTION */
 /* START SECTION 2 SECTION */
+.section-2 {
+  padding: 116px 0;
+}
 .section-2_heading {
   font-family: var(--main-font);
   font-weight: 700;
@@ -195,10 +203,12 @@ a {
 .section-2__imgs {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 116px;
 }
 /* END SECTION 2 SECTION */
 /* START OUR TEAM SECTION */
+.our-team {
+  padding: 120px 0;
+}
 .our-team__bg {
   background-color: var(--light);
 }
@@ -211,13 +221,12 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
-  padding: 120px 0 72px 0;
+  margin: 0 0 72px 0;
 }
 .our-team__imgs {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .team-card__heading {
   font-family: var(--main-font);
@@ -267,6 +276,9 @@ a {
   border-radius: 50%;
 }
 /* END OUR TEAM SECTION */
+.our-custumers{
+  padding:120px 0;
+}
 .our-custumers_heading {
   font-family: var(--main-font);
   font-weight: 700;
@@ -276,11 +288,11 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
-  padding: 120px 0 72px 0;
+  margin-bottom:72px;
 }
 /* START FOOTER SECTION */
 .footer__bg {
-  height: 312px;
+  padding:100px ;
   background-color: var(--dark);
   display: flex;
   align-items: center;
@@ -432,7 +444,6 @@ a {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 120px;
 }
 .costomers__img {
   display: block;
@@ -832,7 +843,13 @@ textarea {
   }
   /* section hero bg */
   .hero__bg {
-    height: 432px;
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/moblefon.jpg);
+    background-size: 767px 432px;
   }
   .main__heading {
     font-family: Roboto;
@@ -983,7 +1000,13 @@ textarea {
   }
   /* section hero bg */
   .hero__bg {
-    height: 436px;
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/moblefon.jpg);
+    background-size: 1158px 436px;
   }
   .main__heading {
     font-family: Roboto;
