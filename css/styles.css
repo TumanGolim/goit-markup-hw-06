@@ -276,8 +276,8 @@ a {
   border-radius: 50%;
 }
 /* END OUR TEAM SECTION */
-.our-custumers{
-  padding:120px 0;
+.our-custumers {
+  padding: 120px 0;
 }
 .our-custumers_heading {
   font-family: var(--main-font);
@@ -288,11 +288,11 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
-  margin-bottom:72px;
+  margin-bottom: 72px;
 }
 /* START FOOTER SECTION */
 .footer__bg {
-  padding:100px ;
+  padding: 100px;
   background-color: var(--dark);
   display: flex;
   align-items: center;
@@ -813,8 +813,15 @@ textarea {
   opacity: 1;
   border-radius: 15px;
 }
+.menu-container {
+  display: none;
+}
+.container__w {
+  width: 1128px;
+  margin: 0 auto;
+}
 /* Mobile Styles */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 428px) {
   .nav__item {
     display: none;
   }
@@ -848,7 +855,157 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/moblefon.jpg);
+      url(../images/Dark-bg.jpg);
+    background-size: 428px 432px;
+  }
+  .main__heading {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  /* features__section */
+  .features__section_text {
+    width: 100%;
+    display: inline-flex;
+    gap: 72px;
+    margin: 96px 0;
+    padding: 0 16px;
+    flex-direction: column;
+  }
+  .features__img {
+    display: none;
+  }
+
+  .feature__text {
+    width: 100%;
+  }
+  .feature__heading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .feature1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  /* section-2 */
+  .section-2 {
+    display: none;
+  }
+  /* our-team */
+  .our-team__heading {
+    padding-top: 96px;
+  }
+  .our-team__imgs {
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+  .team-card {
+    width: 264px;
+    height: 396px;
+  }
+  /* our-custumers */
+  .costomers__cont {
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+  }
+  /* footer__bg */
+  .footer__bg {
+    height: 664px;
+  }
+  .container__footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .footer__text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .logo-footer {
+    display: block;
+    text-align: center;
+  }
+  .footer__social__container {
+    text-align: center;
+  }
+  .icon-cont-footer {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+  }
+  .subscribe-heading {
+    text-align: center;
+  }
+  .email__imput {
+    width: 100%;
+  }
+  .foter__email {
+    flex-direction: column;
+  }
+  .foter__imput {
+    width: 100%;
+  }
+  .foter__lable {
+    width: auto;
+    margin: 0 15px;
+  }
+  .footer__subscribe {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 429px) and (max-width: 767px) {
+  .nav__item {
+    display: none;
+  }
+  .nav__address__item {
+    display: none;
+  }
+  .burger__menu {
+    display: flex;
+  }
+  .top__nav {
+    height: 70px;
+    width: 100%;
+  }
+  .menu__nav {
+    justify-content: space-between;
+    margin: 0 16px;
+    width: 100%;
+    gap: 0;
+  }
+  .container {
+    width: 100%;
+    gap: 0;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  /* section hero bg */
+  .hero__bg {
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/fonm.jpg);
     background-size: 767px 432px;
   }
   .main__heading {
@@ -1001,12 +1158,6 @@ textarea {
   /* section hero bg */
   .hero__bg {
     padding: 112px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/moblefon.jpg);
-    background-size: 1158px 436px;
   }
   .main__heading {
     font-family: Roboto;
@@ -1066,11 +1217,14 @@ textarea {
   .our-team__imgs {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 108px;
   }
   .team-card {
     width: 264px;
     height: 396px;
+  }
+  .container__w {
+    width: 552px;
+    margin: 0 auto;
   }
   /* our-custumers */
   .our-custumers_heading {
