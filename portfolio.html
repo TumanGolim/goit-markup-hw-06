@@ -29,43 +29,46 @@
 
   <body class="body">
     <header class="top__nav container">
-      <nav class="menu__nav">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo__part2">Studio</span></a
-        >
-        <button class="burger__menu js-open-menu">
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-        </button>
-        <ul class="nav__item list">
-          <li>
-            <a class="nav__link Studio" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="nav__link Portfolio" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav__link Contacts" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="nav__address">
-        <ul class="nav__address__item list">
-          <li>
-            <a class="address__link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address__link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header__cont">
+        <nav class="menu__nav">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo__part2">Studio</span></a
+          >
+          <button class="burger__menu js-open-menu">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+          </button>
+          <ul class="nav__item list">
+            <li>
+              <a class="nav__link studio" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav__link Portfolio" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="nav__link Contacts" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="nav__address">
+          <ul class="nav__address__item list">
+            <li>
+              <a class="address__link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address__link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
-
     <main class="main">
       <div class="main__container">
         <h1 hidden>Portfolio</h1>
@@ -486,77 +489,79 @@
     </main>
 
     <footer class="footer__bg">
-      <div class="container__footer">
-        <div class="footer__text_container">
-          <a class="logo-footer link" href="./index.html">
-            Web<span class="logo__part2-footer">Studio</span>
-          </a>
-          <p class="footer__text">
-            Increase the flow of customers and <br />
-            sales for your business with digital <br />
-            marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer__social__container">
-          <h3 class="social-heading">Social media</h3>
-          <ul class="icon-cont-footer">
-            <li>
-              <a href="" class="footer-social-list-link"
-                ><img
-                  class="footer__social__list__img"
-                  src="./images/instagram 2.svg"
-                  alt="#"
+      <div class="container__w">
+        <div class="container__footer">
+          <div class="footer__text_container">
+            <a class="logo-footer link" href="./index.html">
+              Web<span class="logo__part2-footer">Studio</span>
+            </a>
+            <p class="footer__text">
+              Increase the flow of customers and <br />
+              sales for your business with digital <br />
+              marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer__social__container">
+            <h3 class="social-heading">Social media</h3>
+            <ul class="icon-cont-footer">
+              <li>
+                <a href="" class="footer-social-list-link"
+                  ><img
+                    class="footer__social__list__img"
+                    src="./images/instagram 2.svg"
+                    alt="#"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-social-list-link"
+                  ><img
+                    class="footer__social__list__img"
+                    src="./images/twitter 1.svg"
+                    alt="#"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-social-list-link"
+                  ><img
+                    class="footer__social__list__img"
+                    src="./images/facebook 1.svg"
+                    alt="#"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-social-list-link"
+                  ><img
+                    class="footer__social__list__img"
+                    src="./images/linkedin 1.svg"
+                    alt="#"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="email__imput">
+            <p class="subscribe-heading">Subscribe</p>
+            <form class="foter__email">
+              <label class="foter__lable">
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="E-mail"
+                  class="foter__imput"
                 />
-              </a>
-            </li>
-            <li>
-              <a href="" class="footer-social-list-link"
-                ><img
-                  class="footer__social__list__img"
-                  src="./images/twitter 1.svg"
-                  alt="#"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="" class="footer-social-list-link"
-                ><img
-                  class="footer__social__list__img"
-                  src="./images/facebook 1.svg"
-                  alt="#"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="" class="footer-social-list-link"
-                ><img
-                  class="footer__social__list__img"
-                  src="./images/linkedin 1.svg"
-                  alt="#"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="email__imput">
-          <p class="subscribe-heading">Subscribe</p>
-          <form class="foter__email">
-            <label class="foter__lable">
-              <input
-                name="email"
-                type="email"
-                placeholder="E-mail"
-                class="foter__imput"
-              />
-            </label>
-            <button type="submit" class="footer__subscribe">
-              Subscribe
-              <svg class="foter__svg" width="24" height="24">
-                <use href="./images/sprite.svg#symbol-id"></use>
-              </svg>
-              <img class="telegram" src="/images/Frame 3.svg" alt="#" />
-            </button>
-          </form>
+              </label>
+              <button type="submit" class="footer__subscribe">
+                Subscribe
+                <svg class="foter__svg" width="24" height="24">
+                  <use href="./images/sprite.svg#symbol-id"></use>
+                </svg>
+                <img class="telegram" src="./images/Frame 3.svg" alt="#" />
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -564,19 +569,21 @@
       <button class="clouse__menu js-close-menu">x</button>
 
       <ul class="mobile-menu__burger">
-        <li><a href="./index.html" class="link__burger">Studio</a></li>
-        <li><a href="./portfolio.html" class="link__burger">Portfolio</a></li>
+        <li>
+          <a class="link__burger" href="./index.html">Studio</a>
+        </li>
+        <li><a href="./portfolio.html" class="link__burger portfolii__br">Portfolio</a></li>
         <li><a href="" class="link__burger">Contacts</a></li>
       </ul>
       <ul class="mobile-cont__burger">
         <li>
-          <a class="address__link__burger link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="moble__link__burger link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
           >
         </li>
         <li>
-          <a class="moble__link__burger link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
+          <a class="address__link__burger link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
           >
         </li>
       </ul>
